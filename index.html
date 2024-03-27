@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <div id="form">
+            <form >
+                <label ><h2>AGE CALCULATOR💯</h2></label>
+                <label for="name">NAME🗽: </label>
+                <br>
+                <input type="text" name="fname">
+
+                <br>
+                <br>
+
+                <label for="name">DATE OF BIRTH 📅: </label>
+                <br>
+                
+                
+                <input type="date" name="dateOfBirth">
+                <br>
+                <br>
+                
+
+                <button type="button" onclick="calculateAge()">DONE</button>
+            </form>
+        </div>
+
+        <br>
+        <div id="response" style="display: none;">
+            <p>
+            Dear <span id="nameResult"></span> , <br>
+            Your age is: <span id="ageResult"></span> years old.
+            </p>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
+
